@@ -15,21 +15,21 @@ int main(){
     printf("\n\nPor último, insira a nota do exame final: ");
     scanf("%f", &EF);
     
-    NF = (lab*2 + AvSem*3 + EF*5)/10;
+    NF = (lab*2 + AvSem*3 + EF*5);
 
     if (NF <= 10 && NF >= 8)
     {
-        printf("\nMédia final: %.1f\nConceito A\n"), NF;
+        printf("\nMédia final: %.1f \nConceito A\n", NF/10);
     } else if (NF < 8&& NF >= 7)
     {
-        printf("\nMédia final: %.1f\nConceito B\n", NF);
+        printf("\nMédia final: %.1f\nConceito B\n", NF/10);
     } else if (NF < 7&& NF >= 6)
     {
-        printf("\nMédia final: %.1f\nConceito C\n", NF);
+        printf("\nMédia final: %.1f\nConceito C\n", NF/10);
     } else if (NF < 6&& NF >= 5)
     {
-        printf("\nMédia final: %.1f\nConceito D\n", NF);
-    } else printf("\nMédia final: %.1f\nConceito E\n", NF);
+        printf("\nMédia final: %.1f\nConceito D\n", NF/10);
+    } else printf("\nMédia final: %.1f\nConceito E\n", NF/10);
 
     return 0;
 }
