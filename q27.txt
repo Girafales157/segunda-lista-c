@@ -1,0 +1,20 @@
+O que será impresso depois de executado o seguinte algoritmo:
+a) num = 20
+b) num = -3
+c) num = 0
+
+leia(num) //tá faltando o ponto e vírgula professor
+se num > 0 então
+    quale = 'NUMERO POSITIVO' //tá faltando o ponto e vírgula professor
+senão
+    se num < 0 então
+        quale = 'NUMERO NEGATIVO' //tá faltando o ponto e vírgula professor
+    senão
+        quale = 'zero';
+    fim se;
+fim se;
+escreva(quale);
+
+a) 'NUMERO POSITIVO'
+b) 'NUMERO NEGATIVO'
+c) 'zero'
